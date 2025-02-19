@@ -7,7 +7,7 @@ Continue perguntando até que ele insira 5 números e em seguida exiba a mensage
 i = 0
 
 while i < 5:
-    num = int(input("Digite o {}º número: "))
+    num = int(input("Digite o {}º número: ".format(i)))
 
 print("O último número que você digitou foi : {}".format(num))
 
