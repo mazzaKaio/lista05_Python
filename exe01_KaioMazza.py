@@ -10,3 +10,6 @@ while somaTotal < 50:
     somaTotal += num
 
 print("A soma total é: {}".format(somaTotal))
+
+print("\nFim do programa!")
+print("Kaio Gomes do Nascimento Mazza")

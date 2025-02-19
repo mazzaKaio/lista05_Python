@@ -10,3 +10,6 @@ while i < 5:
     num = int(input("Digite o {}º número: "))
 
 print("O último número que você digitou foi : {}".format(num))
+
+print("\nFim do programa!")
+print("Kaio Gomes do Nascimento Mazza")
