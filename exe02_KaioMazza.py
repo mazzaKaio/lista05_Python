@@ -8,6 +8,7 @@ i = 0
 
 while i < 5:
     num = int(input("Digite o {}º número: ".format(i+1)))
+    i += 1
 
 print("O último número que você digitou foi : {}".format(num))
 
