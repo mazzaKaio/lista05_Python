@@ -7,16 +7,19 @@ Se ele inserir o mesmo valor que “adivinha”, exiba a mensagem "Parabéns! Vo
 
 advinha = 50
 num = 0
+tentativas = 0
 
 while num != advinha:
     num = int(input("Advinhe o número definido pela máquina: "))
 
     if num > advinha:
         print("\nNúmero {} é MAIOR que número estabelecido!".format(num))
+        tentativas += 1
     elif num < advinha:
         print("\nNúmero {} é MENOR que número estabelecido!".format(num))
+        tentativas += 1
     else:
-        print("\nVocê acertouuu!!!\nUm beijo e um abraço")
+        print("\nVocê acertou em {} tentativas!!!\nParábens! Um beijo e um abraço".format(tentativas))
         break
 
 print("\nFim do programa!")
